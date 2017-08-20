@@ -1,0 +1,19 @@
+{
+  "name": "nightwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch",
+    "e2e-setup": "selenium-standalone install"
+  },
+  "keywords": [],
+  "author": "John Kennedy - @codejockie",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "selenium-standalone": "^6.7.0"
+  }
+}
