@@ -3,15 +3,15 @@ module.exports = {
     client
       .url('http://todomvc.com/examples/react/#/')
       .waitForElementVisible('.header h1')
-      .expect.element('.main').to.not.be.present;
-    client.end();
+      .assert.elementNotPresent('.main')
+      .end();
   },
   'Does not show the footer if there are no tasks'(client) {
     client
       .url('http://todomvc.com/examples/react/#/')
       .waitForElementVisible('.header h1')
-      .expect.element('.footer').to.not.be.present;
-    client.end();
+      .assert.elementNotPresent('.footer')
+      .end();
   },
   'On page load, it sets focus on the input field'(client) {
     client
