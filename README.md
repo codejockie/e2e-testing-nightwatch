@@ -1,8 +1,9 @@
 # E2E Testing with Nightwatch
 This repo contains the source code to the tutorial series on E2E Testing with Nightwatch.  
 You can read the post here:  
-[Part One](https://www.codementor.io/johnkennedy/e2e-testing-with-nightwatch-part-one-b44jzd6mv)   
-[Part Two](https://www.codementor.io/johnkennedy/e2e-testing-with-nightwatch-part-two-b57uwf375)
+* [Part One](https://www.codementor.io/johnkennedy/e2e-testing-with-nightwatch-part-one-b44jzd6mv)   
+* [Part Two](https://www.codementor.io/johnkennedy/e2e-testing-with-nightwatch-part-two-b57uwf375)
+* [Part Three](https://www.codementor.io/johnkennedy/e2e-testing-with-nightwatch-part-three-bzpnspxfn)
 
 ## What is Nightwatch? 
 [Nightwatch.js](http://nightwatchjs.org) is an automated testing framework for web applications and websites, written in Node.js and using the [W3C WebDriver API](https://www.w3.org/TR/webdriver/) (formerly [Selenium WebDriver](https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol)).
