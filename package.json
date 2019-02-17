@@ -1,11 +1,12 @@
 {
   "name": "nightwatch",
   "version": "1.0.0",
-  "description": "",
+  "description": "End-to-end testing with Nightwatch",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch",
-    "e2e-setup": "selenium-standalone install"
+    "e2e-setup": "selenium-standalone install",
+    "sauce": "nightwatch",
+    "test": "nightwatch --env local"
   },
   "keywords": [],
   "author": "John Kennedy - @codejockie",

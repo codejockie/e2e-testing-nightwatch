@@ -19,9 +19,18 @@
   "test_settings": {
     "default": {
       "launch_url": "https://localhost",
+      "selenium_port": 80,
+      "selenium_host": "ondemand.saucelabs.com",
+      "silent": true,
+      "globals": {
+        "waitForConditionTimeout": 5000 
+      },
+      "username" : "${SAUCE_USERNAME}", 
+      "access_key" : "${SAUCE_ACCESS_KEY}"
+    },
+    "local": {
       "selenium_port": 4444,
       "selenium_host": "localhost",
-      "silent": true,
       "desiredCapabilities": {
         "browserName": "chrome",
         "javascriptEnabled": true,
