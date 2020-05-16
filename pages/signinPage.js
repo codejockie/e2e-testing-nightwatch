@@ -10,7 +10,7 @@ const signinCommands = {
 };
 
 export default {  
-  url: 'https://cjdocs.herokuapp.com/auth/signin',
+  url: 'https://cjdocs.herokuapp.com/signin',
   commands: [signinCommands],
   elements: {
     emailInput: {

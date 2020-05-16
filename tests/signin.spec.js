@@ -7,7 +7,7 @@ module.exports = {
       .navigate()
       .signin(process.env.EMAIL, process.env.PASSWORD);
 
-    instancesPage.expect.element('@homepageWelcomeTitle').text.to.contain('Welcome to the CJDocs Home!');
+    instancesPage.expect.element('@homepageWelcomeTitle').text.to.contain('Welcome to the Docs Home!');
 
     client.end();
   }
