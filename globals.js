@@ -1,3 +1,3 @@
 export default {  
-  waitForConditionTimeout: 10000
+  waitForConditionTimeout: 100000
 };
